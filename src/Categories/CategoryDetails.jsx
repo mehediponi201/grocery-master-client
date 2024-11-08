@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 
 const CategoryDetails = ({ categories }) => {
-    const { title, img, price } = categories;
+    const { _id,title, img, price } = categories;
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-xl">
@@ -15,7 +16,9 @@ const CategoryDetails = ({ categories }) => {
                     <h2>Price:{price}</h2>
                     <p>If a dog chews shoes whose shoes does he?</p>
                     <div className="card-actions">
+                        <Link to={`/checkout/${_id}`}>
                         <button className="btn btn-outline btn-success">Add to Cart</button>
+                        </Link>
                     </div>
                 </div>
             </div>

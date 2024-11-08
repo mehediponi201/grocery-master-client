@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       {
         path: '/categories',
         element: <Categories></Categories>,
-        loader: () => fetch('categories.json')
+        loader: () => fetch('http://localhost:5000/services')
       },
       {
         path: '/login',
