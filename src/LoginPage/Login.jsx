@@ -1,7 +1,7 @@
 import swal from 'sweetalert';
 import { useContext } from 'react';
 import icon from '../assets/login/login.svg'
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const Login = () => {

@@ -12,6 +12,10 @@ import Categories from './Categories/Categories';
 import Login from './LoginPage/Login';
 import Signup from './SignUpPage/Signup';
 import AuthProvider from './AuthProvider/AuthProvider';
+import CheckOut from './pages/CheckOut';
+import BookingsPage from './pages/BookingsPage';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+import ContactUs from './components/ContactUs';
 
 
 
@@ -29,9 +33,14 @@ const router = createBrowserRouter([
         element: <About></About>
       },
       {
+       path:"/contact",
+       element:<ContactUs></ContactUs>
+      },
+      {
         path: '/categories',
         element: <Categories></Categories>,
         loader: () => fetch('http://localhost:5000/services')
+        //loader: () => fetch('categories.json')
       },
       {
         path: '/login',
@@ -40,6 +49,15 @@ const router = createBrowserRouter([
       {
         path: '/signup',
         element: <Signup></Signup>
+      },
+      {
+        path:"/checkout/:id",
+        element: <CheckOut></CheckOut>,
+        loader: ({params})=>fetch(`http://localhost:5000/services/${params.id}`)
+      },
+      {
+        path:"/bookings",
+        element:<PrivateRoute><BookingsPage></BookingsPage></PrivateRoute>
       }
     ],
   },

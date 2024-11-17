@@ -20,8 +20,14 @@ const Header = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/categories">Categories</Link></li>
-            <li><a href="#footer">Contact</a></li>
-            {user?.email ? <li><Link onClick={handleLogOut}>SignOut</Link></li> : <li><Link to="/login">Sign In</Link></li>}
+            {/* <li><a href="#footer">Contact</a></li> */}
+            <li><Link to="/contact">Contact Us</Link></li>
+            {user?.email ? <>
+                <li><Link to="/bookings">My Bookings</Link></li>
+                <li><Link onClick={handleLogOut}>SignOut</Link></li>
+            </>
+                : <li><Link to="/login">Sign In</Link></li>
+            }
             <li><Link to="/signup">Sign Up</Link></li>
         </>
 
