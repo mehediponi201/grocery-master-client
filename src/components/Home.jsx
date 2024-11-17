@@ -5,8 +5,6 @@ import PeopleSay from "./PeopleSay";
 import Quality from "./Quality";
 
 
-
-
 const Home = () => {
     return (
         <div>

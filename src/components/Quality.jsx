@@ -7,7 +7,7 @@ import icon4 from '../assets/icons/service_icons/truck.png'
 const Quality = () => {
     return (
         <div className='mt-10 mb-5'>
-            <div className='flex items-center'>
+            <div className='lg:flex lg:items-center'>
                 <div className='space-y-3'>
                     <h3 className='text-3xl font-semibold'>Why We’re Best Quality grocery Shopper</h3>
                     <p>We offer a wide variety of products to choose from you can find everything you need to feed your family.</p>

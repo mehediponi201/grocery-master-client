@@ -2,11 +2,11 @@
 const PeopleSay = () => {
     return (
         <div className="mt-4">
-            <h3 className="text-4xl font-medium text-center mb-10">What people say</h3>
-            <div className="carousel w-full">
+            <h3 className="text-4xl font-medium lg:text-center mb-10">What people say</h3>
+            <div className="carousel lg:w-full">
                 {/* slider-1 */}
-                <div id="slide1" className="carousel-item relative w-full flex items-center justify-center">
-                    <div className="flex space-x-4">
+                <div id="slide1" className="carousel-item relative w-full lg:flex lg:items-center lg:justify-center">
+                    <div className="lg:flex space-x-4">
                         <div className="card bg-base-100 w-52 shadow-xl">
                             <figure>
                                 <div className="w-24 rounded-full">

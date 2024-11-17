@@ -7,11 +7,11 @@ import meat from '../assets/categories/meat.png'
 const CarouselItem = () => {
     return (
         <div className="mt-4">
-            <h4 className="text-4xl font-bold font-sans mb-5 text-center mt-2">Popular Categories</h4>
-            <div className="carousel w-full">
+            <h4 className="text-4xl font-bold font-sans mb-5 lg:text-center mt-2">Popular Categories</h4>
+            <div className="carousel lg:w-full">
                 {/* slider-1 */}
-                <div id="slide1" className="carousel-item relative w-full flex items-center justify-center">
-                    <div className="flex space-x-4">
+                <div id="slide1" className="carousel-item relative w-full lg:flex lg:items-center lg:justify-center">
+                    <div className="lg:flex space-x-4">
                         <div className="card bg-base-100 w-52 shadow-xl">
                             <figure>
                                 <img src={dairy} alt="" />
@@ -50,8 +50,8 @@ const CarouselItem = () => {
                     </div>
                 </div>
                 {/* slider-2 */}
-                <div id="slide2" className="carousel-item relative w-full flex items-center justify-center">
-                    <div className="flex space-x-4">
+                <div id="slide2" className="carousel-item relative w-full lg:flex lg:items-center lg:justify-center">
+                    <div className="lg:flex space-x-4">
                     <div className="card bg-base-100 w-52 shadow-xl">
                             <figure>
                                 <img src={fruits} alt="" />
@@ -90,8 +90,8 @@ const CarouselItem = () => {
                     </div>
                 </div>
                 {/* slider-3 */}
-                <div id="slide3" className="carousel-item relative w-full flex items-center justify-center">
-                    <div className="flex space-x-4">
+                <div id="slide3" className="carousel-item relative w-full lg:flex lg:items-center lg:justify-center">
+                    <div className="lg:flex space-x-4">
                     <div className="card bg-base-100 w-52 shadow-xl">
                             <figure>
                                 <img className='mt-4' src={grains} alt="" />
@@ -131,8 +131,8 @@ const CarouselItem = () => {
                     </div>
                 </div>
                 {/* slider-4 */}
-                <div id="slide4" className="carousel-item relative w-full flex items-center justify-center">
-                    <div className="flex space-x-4">
+                <div id="slide4" className="carousel-item relative w-full lg:flex lg:items-center lg:justify-center">
+                    <div className="lg:flex space-x-4">
                     <div className="card bg-base-100 w-52 shadow-xl">
                             <figure>
                                 <img className='mt-7' src={vegetable} alt="" />
@@ -172,8 +172,8 @@ const CarouselItem = () => {
                     </div>
                 </div>
                 {/* slider-5 */}
-                <div id="slide5" className="carousel-item relative w-full flex items-center justify-center">
-                    <div className="flex space-x-4">
+                <div id="slide5" className="carousel-item relative w-full lg:flex lg:items-center lg:justify-center">
+                    <div className="lg:flex space-x-4">
                     <div className="card bg-base-100 w-52 shadow-xl">
                             <figure>
                                 <img className='mt-4' src={meat} alt="" />

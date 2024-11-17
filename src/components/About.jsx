@@ -2,9 +2,9 @@ import animation from '../assets/animations/aboutUsAnimation.gif';
 
 const About = () => {
     return (
-        <div className='mt-10 mb-10'>
-            <div className='flex items-end  justify-between'>
-                <div className="space-y-4 w-1/2">
+        <div className='mt-10'>
+            <div className='lg:flex  justify-between'>
+                <div className="space-y-4 lg:w-1/2">
                     <h3 className="text-4xl font-medium">Welcome to Our Grocery Master</h3>
                     <p>At <bold>Grocery,</bold> we are committed to providing you with the freshest and highest quality products for your everyday needs. Our extensive range includes fresh vegetables, succulent meats, dairy products, pantry essentials,
                         and much more. We carefully select our suppliers to ensure that you receive only the best.</p>
@@ -16,8 +16,8 @@ const About = () => {
                         Join us at Grocery and discover a new way to grocery shop.</p>
                     <p>Start shopping now and make your everyday life healthier and more convenient.</p>
                 </div>
-                <div className='w-1/4'>
-                    <img className='' src={animation} alt="" />
+                <div className='lg:w-1/2'>
+                    <img src={animation} alt="" />
                 </div>
             </div>
         </div>

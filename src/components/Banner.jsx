@@ -4,7 +4,7 @@ import right_icon from '../assets/icons/right_symbol.png'
 const Banner = () => {
     return (
         <div className='mt-6'>
-            <div className='flex items-center'>
+            <div className='lg:flex items-center'>
                 <div>
                     <img className='w-3/4' src={quality_man} alt="" />
                 </div>
