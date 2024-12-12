@@ -6,6 +6,8 @@ import swal from 'sweetalert'
 const BookingsPage = () => {
 
     const { user } = useContext(AuthContext);
+    console.log(user);
+    
     const [bookings, setBookings] = useState([]);
 
     useEffect(() => {
@@ -69,6 +71,7 @@ const BookingsPage = () => {
     return (
         <div>
             <h4 className="text-center text-3xl mt-3 mb-3">Total Bookings: {bookings.length} items</h4>
+            <h4 className="text-center text-2xl mt-3 mb-3">Customer Email:{user?.email}</h4>
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>

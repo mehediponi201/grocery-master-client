@@ -1,13 +1,14 @@
 
 import { useLoaderData } from "react-router-dom";
 import CategoryDetails from "./CategoryDetails";
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
+
 
 const Categories = () => {
 
     const category = useLoaderData();
-    const {user} = useContext(AuthContext);
+    const { user } = useContext(AuthContext);
 
     const { title, img, price } = category;
     console.log(category);
