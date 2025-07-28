@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Alu",
+    "img": "https://i.ibb.co/3m3cLSKL/alu.webp",
+    "price": 30,
+    "category": "Grains",
+    "description": "Fresh and clean potatoes for daily use",
+    "stock": 100
+  },
+  {
+    "title": "Ata",
+    "img": "https://i.ibb.co/TxhQh9gs/Atta.webp",
+    "price": 55,
+    "category": "Grains",
+    "description": "High-quality whole wheat flour for healthy roti",
+    "stock": 100
+  },
+  {
+    "title": "Dim",
+    "img": "https://i.ibb.co/Vp9PsjsF/dim.webp",
+    "price": 150,
+    "category": "Grains",
+    "description": "Farm fresh eggs full of nutrition",
+    "stock": 100
+  },
+  {
+    "title": "Moida",
+    "img": "https://i.ibb.co/yr85XJ9/maida.webp",
+    "price": 60,
+    "category": "Grains",
+    "description": "Premium refined flour for baking and paratha",
+    "stock": 100
+  },
+  {
+    "title": "Moshur Dal",
+    "img": "https://i.ibb.co/60KRbY6Z/moshur-dal.webp",
+    "price": 130,
+    "category": "Grains",
+    "description": "Fine quality red lentils, rich in protein",
+    "stock": 100
+  },
+  {
+    "title": "Piyaj",
+    "img": "https://i.ibb.co/QFSzH3hm/piyaj.webp",
+    "price": 65,
+    "category": "Grains",
+    "description": "Fresh onions ideal for all your cooking needs",
+    "stock": 100
+  },
+  {
+    "title": "Rice",
+    "img": "https://i.ibb.co/cSCDbxRC/rice.webp",
+    "price": 70,
+    "category": "Grains",
+    "description": "Premium quality rice perfect for everyday meals",
+    "stock": 100
+  },
+  {
+    "title": "Sugar Loose",
+    "img": "https://i.ibb.co/SwXy2bWf/sugar-loose.webp",
+    "price": 95,
+    "category": "Grains",
+    "description": "Loose sugar with consistent sweetness",
+    "stock": 100
+  },
+  {
+    "title": "Rupchanda Soyabean Oil",
+    "img": "https://i.ibb.co/FbbGpY7n/Rupchanda-Soyabean-Oil.webp",
+    "price": 185,
+    "category": "Grains",
+    "description": "Rupchanda Soyabean oil for healthy cooking",
+    "stock": 100
+  }
+]

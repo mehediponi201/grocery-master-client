@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Golda",
+    "img": "https://i.ibb.co/hJN0W6HY/Golda-Chingri.webp",
+    "price": 1200,
+    "category": "Fish",
+    "description": "Fresh Golda Chingri",
+    "stock": 100
+  },
+  {
+    "title": "Hilsa",
+    "img": "https://i.ibb.co/ym6Yp5y0/Hilsha.webp",
+    "price": 1800,
+    "category": "Fish",
+    "description": "Premium quality Hilsa fish from Padma river",
+    "stock": 100
+  },
+  {
+    "title": "Katla",
+    "img": "https://i.ibb.co/YBjkHBHR/Katla.webp",
+    "price": 750,
+    "category": "Fish",
+    "description": "Freshwater Katla fish rich in protein",
+    "stock": 100
+  },
+  {
+    "title": "Koral",
+    "img": "https://i.ibb.co/XfC19SnZ/Koral.webp",
+    "price": 1300,
+    "category": "Fish",
+    "description": "Premium Koral fish perfect for curry",
+    "stock": 100
+  },
+  {
+    "title": "Koi Fish",
+    "img": "https://i.ibb.co/b56g1nsN/Koi-Fish.webp",
+    "price": 600,
+    "category": "Fish",
+    "description": "Local Koi fish full of traditional taste",
+    "stock": 100
+  },
+  {
+    "title": "Pabda",
+    "img": "https://i.ibb.co/NXxqyCN/Pabda.webp",
+    "price": 900,
+    "category": "Fish",
+    "description": "Soft boneless Pabda fish, ideal for frying",
+    "stock": 100
+  },
+  {
+    "title": "Rui Deshi",
+    "img": "https://i.ibb.co/b5QMgB3k/Rui-Deshi.webp",
+    "price": 850,
+    "category": "Fish",
+    "description": "Deshi Rui fish, great for Bengali-style curry",
+    "stock": 100
+  },
+  {
+    "title": "Rupchanda",
+    "img": "https://i.ibb.co/9Kyz6q1/Rupchanda.webp",
+    "price": 1000,
+    "category": "Fish",
+    "description": "Premium quality Rupchanda, perfect for grilling",
+    "stock": 100
+  },
+  {
+    "title": "Tatkini",
+    "img": "https://i.ibb.co/svwrfgs9/Tatkini-Captured.webp",
+    "price": 650,
+    "category": "Fish",
+    "description": "Fresh sea-caught Tatkini fish",
+    "stock": 100
+  }
+]

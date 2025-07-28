@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Beef Boneless With Fat",
+        "img": "https://i.ibb.co/yFvwGXk2/Beef-Boneless-With-Fat.webp",
+        "price": 720,
+        "category": "Meat",
+        "description": "Tender beef boneless cuts with a rich layer of fat",
+        "stock": 100
+    },
+    {
+        "title": "Beef Boneless",
+        "img": "https://i.ibb.co/bMyjMJCZ/Beef-Boneless.webp",
+        "price": 750,
+        "category": "Meat",
+        "description": "Clean boneless beef ideal for curries and steaks",
+        "stock": 100
+    },
+    {
+        "title": "Beef Flank",
+        "img": "https://i.ibb.co/21jCHHC6/Beef-Flank.webp",
+        "price": 690,
+        "category": "Meat",
+        "description": "Flavorful beef flank cut perfect for grilling",
+        "stock": 100
+    },
+    {
+        "title": "Beef Premium Chunk",
+        "img": "https://i.ibb.co/h1hqCTdL/Beef-Premium-Chunk.webp",
+        "price": 800,
+        "category": "Meat",
+        "description": "High-quality premium beef chunks for special recipes",
+        "stock": 100
+    },
+    {
+        "title": "Beef Premium Cube",
+        "img": "https://i.ibb.co/dJ0g058m/Beef-Premium-Cube.webp",
+        "price": 780,
+        "category": "Meat",
+        "description": "Cubed premium beef perfect for kababs and stews",
+        "stock": 100
+    },
+    {
+        "title": "Beef RIB Top",
+        "img": "https://i.ibb.co/cKb639Hw/Beef-RIB-Top.webp",
+        "price": 730,
+        "category": "Meat",
+        "description": "Top rib cut beef full of flavor for roasting",
+        "stock": 100
+    },
+    {
+        "title": "Khashir Mangsho",
+        "img": "https://i.ibb.co/M5sSGgfH/Khashir-Mangsho.webp",
+        "price": 900,
+        "category": "Meat",
+        "description": "Fresh local goat meat, tender and rich in taste",
+        "stock": 100
+    },
+    {
+        "title": "Mutton Standard (Chagoler Mangsho)",
+        "img": "https://i.ibb.co/Dgf4c4tC/Mutton-Standard-Chagoler-Mangsho.webp",
+        "price": 850,
+        "category": "Meat",
+        "description": "Standard quality mutton for everyday cooking",
+        "stock": 100
+    },
+    {
+        "title": "Beef Shank",
+        "img": "https://i.ibb.co/G4TnCJBj/Beef-Shank.webp",
+        "price": 700,
+        "category": "Meat",
+        "description": "Bone-in beef shank, ideal for slow-cooked dishes",
+        "stock": 100
+    }
+]

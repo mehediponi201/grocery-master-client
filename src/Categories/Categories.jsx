@@ -1,18 +1,17 @@
-
 import { useLoaderData } from "react-router-dom";
 import CategoryDetails from "./CategoryDetails";
-import { useContext } from "react";
-import { AuthContext } from "../AuthProvider/AuthProvider";
-
 
 const Categories = () => {
 
     const category = useLoaderData();
-    const { user } = useContext(AuthContext);
 
-    const { title, img, price } = category;
-    console.log(category);
-
+    if (!category || category.length === 0) {
+        return (
+            <div className="flex justify-center items-center h-screen">
+               <span className="loading loading-spinner loading-xl"></span>
+            </div>
+        );
+    }
 
     return (
         <div className="mt-10 mb-10">

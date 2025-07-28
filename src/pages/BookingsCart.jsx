@@ -1,6 +1,7 @@
+import { useLocation } from "react-router-dom";
 
 const BookingsCart = ({ booking, handleDelete, handleConfirm }) => {
-    const { _id, title, img, price, date,status } = booking;
+    const { _id, title, img, price, date, status,quantity } = booking;
     return (
         <tr>
             <th>
@@ -29,6 +30,7 @@ const BookingsCart = ({ booking, handleDelete, handleConfirm }) => {
             <td>{title}</td>
             <td>{price}</td>
             <td>{date}</td>
+            <td>{quantity}</td>
             <th>
                 {
                     status === 'confirm' ? <span className="font-bold text-primary">Confirm</span>

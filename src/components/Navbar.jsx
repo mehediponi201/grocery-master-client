@@ -1,5 +1,6 @@
 import customer from '../assets/hero_customer.png';
 import back1 from '../assets/backgrounds/1_bg.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -17,7 +18,9 @@ const Navbar = () => {
                     <span className="text-green-500">fresh grocery</span> products</h3>
                 <p>Get the best quality and most delicious grocery food in the world, you can get them our website.
                     Fresh grocery every day to your family.</p>
-                <button className="btn btn-active btn-success">Shop Now</button>
+                <Link to="/categories">
+                    <button className="btn btn-active btn-success text-white mt-2">Show Categories</button>
+                </Link>
             </div>
             <div>
                 <img src={customer} alt="" />

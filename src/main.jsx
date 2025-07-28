@@ -16,6 +16,13 @@ import CheckOut from './pages/CheckOut';
 import BookingsPage from './pages/BookingsPage';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import ContactUs from './components/ContactUs';
+import FishDetails from './FishComponent/FishDetails';
+import GrainDetails from './GrainComponent/GrainDetails';
+import CategoryItems from './Categories/CategoryItems';
+import FruitDetails from './FruitComponent/FruitDetails';
+import BeefDetails from './BeefComponent/BeefDetails';
+import VegetableDetails from './VegetableComponent/VegetableDetails';
+import ChickenDetails from './ChickenComponent/ChickenDetails';
 
 
 
@@ -33,14 +40,42 @@ const router = createBrowserRouter([
         element: <About></About>
       },
       {
-       path:"/contact",
-       element:<ContactUs></ContactUs>
+        path: "/contact",
+        element: <ContactUs></ContactUs>
       },
       {
         path: '/categories',
         element: <Categories></Categories>,
-       loader: () => fetch('http://localhost:5000/services')
+        loader: () => fetch('http://localhost:5000/services')
         // loader: () => fetch('categories.json')
+      },
+      {
+        path: "/category/:categoryName",
+        element: <CategoryItems></CategoryItems>
+      },
+      {
+        path: "/fish/:id",
+        element: <FishDetails></FishDetails>
+      },
+      {
+        path: "/grains/:id",
+        element: <GrainDetails></GrainDetails>
+      },
+      {
+        path: '/fruits/:id',
+        element: <FruitDetails></FruitDetails>
+      },
+      {
+        path: '/meat/:id',
+        element: <BeefDetails></BeefDetails>
+      },
+      {
+        path: '/vegetable/:id',
+        element: <VegetableDetails></VegetableDetails>
+      },
+      {
+        path: '/chicken/:id',
+        element: <ChickenDetails></ChickenDetails>
       },
       {
         path: '/login',
@@ -51,13 +86,13 @@ const router = createBrowserRouter([
         element: <Signup></Signup>
       },
       {
-        path:"/checkout/:id",
+        path: "/checkout/:id",
         element: <CheckOut></CheckOut>,
-        loader: ({params})=>fetch(`http://localhost:5000/services/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
       },
       {
-        path:"/bookings",
-        element:<PrivateRoute><BookingsPage></BookingsPage></PrivateRoute>
+        path: "/bookings",
+        element: <PrivateRoute><BookingsPage></BookingsPage></PrivateRoute>
       }
     ],
   },

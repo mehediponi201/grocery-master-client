@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Chicken Keema",
+        "img": "https://i.ibb.co/qYPWscgx/Chicken-Keema.webp",
+        "price": 350,
+        "category": "chicken",
+        "description": "Minced chicken (Keema), ideal for kababs and curries",
+        "stock": 100
+    },
+    {
+        "title": "Broiler Chicken Breast Boneless",
+        "img": "https://i.ibb.co/VpSTnJpp/Broiler-Chicken-Breast-Boneless.webp",
+        "price": 420,
+        "category": "chicken",
+        "description": "Tender boneless breast, perfect for healthy meals and grills",
+        "stock": 100
+    },
+    {
+        "title": "Broiler Chicken Leg (Kg)",
+        "img": "https://i.ibb.co/prJK4ykC/Broiler-Chicken-Leg-Kg.webp",
+        "price": 290,
+        "category": "chicken",
+        "description": "Juicy chicken legs, great for curries and roasts",
+        "stock": 100
+    },
+    {
+        "title": "Broiler Chicken Thigh",
+        "img": "https://i.ibb.co/sphdf3zj/Broiler-Chicken-Thigh.webp",
+        "price": 310,
+        "category": "chicken",
+        "description": "Flavorful chicken thighs, ideal for BBQ and curries",
+        "stock": 100
+    },
+    {
+        "title": "Shonalika Dressed Classic Chicken",
+        "img": "https://i.ibb.co/DHQjt3gk/Shonalika-Dressed-Classic-Chicken.webp",
+        "price": 500,
+        "category": "chicken",
+        "description": "Premium quality Shonalika whole dressed chicken",
+        "stock": 100
+    },
+    {
+        "title": "Broiler Chicken (Without Skin)",
+        "img": "https://i.ibb.co/W4NWJk41/Broiler-Chicken-Without-Skin.webp",
+        "price": 400,
+        "category": "chicken",
+        "description": "Whole broiler chicken cleaned and without skin",
+        "stock": 100
+    },
+    {
+        "title": "Broiler Chicken With Skin",
+        "img": "https://i.ibb.co/Xr6RSQjZ/Broiler-Chicken-With-Skin.webp",
+        "price": 380,
+        "category": "chicken",
+        "description": "Whole broiler chicken with skin, ideal for crispy dishes",
+        "stock": 100
+    },
+    {
+        "title": "Roast Chicken",
+        "img": "https://i.ibb.co/HTbNZ67S/Roast-Chicken.webp",
+        "price": 550,
+        "category": "chicken",
+        "description": "Ready-to-eat delicious roast chicken with spices",
+        "stock": 100
+    },
+    {
+        "title": "Broiler Chicken Breast With Bone",
+        "img": "https://i.ibb.co/3yPsGCKK/Broiler-Chicken-Breast-With-Bone.webp",
+        "price": 390,
+        "category": "chicken",
+        "description": "Bone-in chicken breast, great for flavorful dishes",
+        "stock": 100
+    }
+]

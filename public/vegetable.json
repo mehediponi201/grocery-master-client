@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Begun",
+        "img": "https://i.ibb.co/GfZgFMwr/begun.webp",
+        "price": 40,
+        "category": "vegetable",
+        "description": "Fresh local Begun (Brinjal), ideal for bharta and curry",
+        "stock": 100
+    },
+    {
+        "title": "Chal Kumra",
+        "img": "https://i.ibb.co/ymz9bsZ9/Chalkumra.webp",
+        "price": 50,
+        "category": "vegetable",
+        "description": "Tender Chal Kumra, perfect for Bengali-style dishes",
+        "stock": 100
+    },
+    {
+        "title": "Derosh",
+        "img": "https://i.ibb.co/60Kzx1cS/Dherosh.webp",
+        "price": 60,
+        "category": "vegetable",
+        "description": "Fresh Derosh (Okra), great for stir-fries and curries",
+        "stock": 100
+    },
+    {
+        "title": "Lomba Begun Premium",
+        "img": "https://i.ibb.co/NdjGCpKY/Lomba-Begun-Premium.webp",
+        "price": 55,
+        "category": "vegetable",
+        "description": "Premium long Begun for special dishes and bharta",
+        "stock": 100
+    },
+    {
+        "title": "Misty Kumra",
+        "img": "https://i.ibb.co/tTRhyzMb/Mishti-Kumra.webp",
+        "price": 45,
+        "category": "vegetable",
+        "description": "Sweet pumpkin (Misty Kumra), rich in nutrients",
+        "stock": 100
+    },
+    {
+        "title": "Pepe",
+        "img": "https://i.ibb.co/cXxpmZ8W/pepe.webp",
+        "price": 40,
+        "category": "vegetable",
+        "description": "Green papaya (Pepe), perfect for curry and health",
+        "stock": 100
+    },
+    {
+        "title": "Usta",
+        "img": "https://i.ibb.co/23GLqP7D/Usta.webp",
+        "price": 35,
+        "category": "vegetable",
+        "description": "Fresh Usta vegetables used in traditional cooking",
+        "stock": 100
+    },
+    {
+        "title": "Pui Shak",
+        "img": "https://i.ibb.co/xqxZBWrQ/pui-shak.webp",
+        "price": 30,
+        "category": "vegetable",
+        "description": "Nutritious Pui Shak, good for stir-fry and soups",
+        "stock": 100
+    },
+    {
+        "title": "Lal Shak",
+        "img": "https://i.ibb.co/hx0FL8mk/lal-shak.webp",
+        "price": 30,
+        "category": "vegetable",
+        "description": "Iron-rich Lal Shak, great for boosting immunity",
+        "stock": 100
+    },
+    {
+        "title": "Shosha",
+        "img": "https://i.ibb.co/QFtrRjFD/shosha.webp",
+        "price": 25,
+        "category": "vegetable",
+        "description": "Fresh cucumber (Shosha) for salads and hydration",
+        "stock": 100
+    },
+    {
+        "title": "Lemon",
+        "img": "https://i.ibb.co/Tx9103HK/lemon.webp",
+        "price": 10,
+        "category": "vegetable",
+        "description": "Juicy Lemons, adds flavor and Vitamin C to meals",
+        "stock": 100
+    },
+    {
+        "title": "Misty Alu",
+        "img": "https://i.ibb.co/5X4CCR5R/misty-alu.webp",
+        "price": 40,
+        "category": "vegetable",
+        "description": "Sweet potatoes (Misty Alu), great for roasting and snacks",
+        "stock": 100
+    },
+    {
+        "title": "Loti",
+        "img": "https://i.ibb.co/xKgS4XfK/loti.webp",
+        "price": 35,
+        "category": "vegetable",
+        "description": "Traditional Loti vegetable, best with mustard paste",
+        "stock": 100
+    },
+    {
+        "title": "Kacha Morish",
+        "img": "https://i.ibb.co/rRNv6KgK/kacha-morish.webp",
+        "price": 20,
+        "category": "vegetable",
+        "description": "Spicy green chili (Kacha Morish) for adding heat",
+        "stock": 100
+    },
+    {
+        "title": "Salad Pata",
+        "img": "https://i.ibb.co/2YZ5NK3y/slad-pata.webp",
+        "price": 15,
+        "category": "vegetable",
+        "description": "Fresh lettuce leaves (Salad Pata) for healthy meals",
+        "stock": 100
+    }
+]

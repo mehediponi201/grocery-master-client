@@ -7,7 +7,7 @@ const BookingsPage = () => {
 
     const { user } = useContext(AuthContext);
     console.log(user);
-    
+
     const [bookings, setBookings] = useState([]);
 
     useEffect(() => {
@@ -18,34 +18,33 @@ const BookingsPage = () => {
 
 
     const handleDelete = id => {
-        fetch(`http://localhost:5000/bookings/${id}`, {
-            method: "Delete"
-        })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                if (data.deletedCount > 0) {
-                    swal({
-                        title: "Are you sure?",
-                        text: "Once deleted, you will not be able to recover this imaginary file!",
-                        icon: "warning",
-                        buttons: true,
-                        dangerMode: true,
-                    })
-                        .then((willDelete) => {
-                            if (willDelete) {
-                                swal("Poof! Your imaginary file has been deleted!", {
-                                    icon: "success",
-                                });
-                            } else {
-                                swal("Your imaginary file is safe!");
-                            }
-                        });
-                    const remaining = bookings.filter(booking => booking._id !== id);
-                    setBookings(remaining);
-                }
-            })
-    }
+        swal({
+            title: "Are you sure?",
+            text: "Once deleted, you will not be able to recover this item!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        }).then((willDelete) => {
+            if (willDelete) {
+                fetch(`http://localhost:5000/bookings/${id}`, {
+                    method: "DELETE"
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.deletedCount > 0) {
+                            swal("Poof! Your booking has been deleted!", {
+                                icon: "success",
+                            });
+                            const remaining = bookings.filter(booking => booking._id !== id);
+                            setBookings(remaining);
+                        }
+                    });
+            } else {
+                swal("Your booking is safe!");
+            }
+        });
+    };
+
 
     const handleConfirm = id => {
         fetch(`http://localhost:5000/bookings/${id}`, {
@@ -81,6 +80,7 @@ const BookingsPage = () => {
                             <th>Product Name</th>
                             <th>Due Amount</th>
                             <th>Date</th>
+                            <th>Quantity</th>
                             <th>Status</th>
                         </tr>
                     </thead>

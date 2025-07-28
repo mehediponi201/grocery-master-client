@@ -1,3 +1,4 @@
+
 import { Link, useNavigate } from "react-router-dom";
 import logo from '../assets/Logo_black.png'
 import { useContext, useState } from "react";
@@ -57,7 +58,6 @@ const Header = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/categories">Categories</Link></li>
-            {/* <li><a href="#footer">Contact</a></li> */}
             <li><Link to="/contact">Contact Us</Link></li>
             {user?.email ? <>
                 <li><Link to="/bookings">My Bookings</Link></li>
@@ -136,64 +136,10 @@ const Header = () => {
                     </ul>
                 </div>
             )}
-
         </div>
-
-
-
-
-        // <div className="navbar bg-base-100 mt-4">
-        //     <div className="navbar-start">
-        //         <a className="btn btn-ghost text-xl">
-        //             <Link to="/"><img src={logo} alt="Logo" /></Link>
-        //         </a>
-        //     </div>
-
-        //     <div className="navbar-center hidden lg:flex">
-        //         <ul className="menu menu-horizontal px-1">{navLink}</ul>
-        //     </div>
-
-        //     <div className="navbar-end">
-        //         <div className="form-control">
-        //             <input
-        //                 type="text"
-        //                 placeholder="Search Products"
-        //                 className="input input-bordered w-32 md:w-auto"
-        //                 value={searchQuery}
-        //                 onChange={handleSearch}
-        //             />
-        //         </div>
-        //     </div>
-
-        //     {searchQuery && (
-        //         <div className="absolute top-16 right-0 w-64 bg-white shadow-lg rounded-lg">
-        //             <ul>
-        //                 {filteredProducts.length > 0 ? (
-        //                     filteredProducts.map(product => (
-        //                         <li
-        //                             key={product.service_id}
-        //                             className="p-2 hover:bg-gray-200 cursor-pointer"
-        //                             onClick={() => handleProductClick(product.service_id)}
-        //                         >
-        //                             {product.title}
-        //                         </li>
-        //                     ))
-        //                 ) : (
-        //                     <li className="p-2 text-gray-500">No products found</li>
-        //                 )}
-        //             </ul>
-        //         </div>
-        //     )}
-        // </div>
 
     );
 };
 
 export default Header;
 
-
-
-
-{/* <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
-            </div> */}

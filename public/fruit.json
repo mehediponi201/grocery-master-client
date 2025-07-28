@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Apple",
+        "img": "https://i.ibb.co/7tRFwgNw/apple.webp",
+        "price": 180,
+        "category": "Fruits",
+        "description": "Fresh juicy apples rich in vitamins",
+        "stock": 100
+    },
+    {
+        "title": "Banana",
+        "img": "https://i.ibb.co/t6f1Zst/banana.webp",
+        "price": 40,
+        "category": "Fruits",
+        "description": "Sweet ripe bananas full of energy",
+        "stock": 100
+    },
+    {
+        "title": "Coconut",
+        "img": "https://i.ibb.co/WWYxPQs1/coconut.webp",
+        "price": 60,
+        "category": "Fruits",
+        "description": "Fresh coconuts ideal for water and cooking",
+        "stock": 100
+    },
+    {
+        "title": "Guava",
+        "img": "https://i.ibb.co/3mbpzCsG/Guava.webp",
+        "price": 50,
+        "category": "Fruits",
+        "description": "Crispy guavas rich in Vitamin C",
+        "stock": 100
+    },
+    {
+        "title": "Green Apple",
+        "img": "https://i.ibb.co/VsQYh2F/green-apple.webp",
+        "price": 220,
+        "category": "Fruits",
+        "description": "Tart and crunchy green apples",
+        "stock": 100
+    },
+    {
+        "title": "Khejur",
+        "img": "https://i.ibb.co/1tBBczyx/khejur.webp",
+        "price": 300,
+        "category": "Fruits",
+        "description": "Delicious dates full of natural sweetness",
+        "stock": 100
+    },
+    {
+        "title": "Orange",
+        "img": "https://i.ibb.co/tp4LSN66/orange.webp",
+        "price": 100,
+        "category": "Fruits",
+        "description": "Juicy oranges full of Vitamin C",
+        "stock": 100
+    },
+    {
+        "title": "Pepe",
+        "img": "https://i.ibb.co/ZRBkY5yN/pepe.webp",
+        "price": 45,
+        "category": "Fruits",
+        "description": "Ripe papayas good for digestion",
+        "stock": 100
+    },
+    {
+        "title": "Tetul",
+        "img": "https://i.ibb.co/rKN1mDMr/tetul.webp",
+        "price": 120,
+        "category": "Fruits",
+        "description": "Tangy tamarind, great for chutneys",
+        "stock": 100
+    }
+]
