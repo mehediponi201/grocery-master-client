@@ -1,5 +1,6 @@
 import quality_man from '../assets/premium_qualityMan.png';
 import right_icon from '../assets/icons/right_symbol.png';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -32,7 +33,9 @@ const Banner = () => {
                             <span>User-Friendly Mobile Apps</span>
                         </li>
                     </ul>
-                    <button className="btn btn-success text-white">Order Now</button>
+                    <Link to="/categories">
+                        <button className="btn btn-success text-white mt-3">Order Now</button>
+                    </Link>
                 </div>
 
                 {/* Image Section */}
